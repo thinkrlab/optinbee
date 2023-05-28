@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "classmap": [
-            "inc/"
+            "includes/"
         ],
         "exclude-from-classmap": [
             ""

@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-use OptinBee\PluginLoaded;
+use OptinBee\Loaded;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -53,7 +53,7 @@ final class OptinBee
         $this->define_constants();
         register_activation_hook(__FILE__, [$this, 'activate']);
 
-        PluginLoaded::getInstance();
+        Loaded::getInstance();
     }
 
     /**
