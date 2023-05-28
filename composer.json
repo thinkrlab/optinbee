@@ -1,0 +1,18 @@
+{
+    "name": "optinbee/optinbee",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Fahim Reza",
+            "email": "hello@optinbee.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "inc/"
+        ],
+        "exclude-from-classmap": [
+            ""
+        ]
+    }
+}

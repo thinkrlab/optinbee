@@ -1,0 +1,16 @@
+# dependencies
+/node_modules
+package-lock.json
+yarn.lock
+composer.lock
+/vendor
+
+# production
+/dist
+/package
+
+# extra
+.env
+.DS_Store
+
+*.zip
